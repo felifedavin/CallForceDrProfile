@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.bindtd {
+  background-color: #d9e9d3;
+  width: 150px;
+  /* display: inline-block; */
+  line-height: 4.2;
+}
+.App tr th {
+  width: 100%;
+  max-width: 30%;
+}
+table {
+  margin: 20px 0 0;
+  display: inline-block;
+}
+div#root {
+  max-width: 39%;
+  margin: 0 auto;
+}
+.App tr {
+  height: 70px;
+}
+.App button {
+  float: right;
+}
+table tr th:first-child {
+  width: 100px;
+  vertical-align: top;
+}
+.App button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.App button:hover {
+  border: 1px solid transparent;
+  background: #000;
+  color: #fff;
+}
+
